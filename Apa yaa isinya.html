@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://feeldreams.github.io/heihbd/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  
+<head>
+<title>Apa coba byy?</title>
+<link rel="icon" type="image/x-icon" href="https://www.palingit.com/favicon.ico">
+<meta name="description" content="HTML Replit Coding">
+</head>
+<body>
+	
+   <!-- Ganti Audio di sini -->
+   <audio src="https://reyhankr.github.io/y2mate.com - Cute Happy Birthday Music No Copyright.mp3" id="linkmp3" class="sembunyi"></audio>
+   
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="https://reyhankr.github.io/badai.jpg" id="wallpaper"/><div id="beneranblur"></div>
+   </div>
+   
+   <div id='Content'>
+
+     <div id="kadoIn">
+       <!-- Tombol Surat --><img src="https://reyhankr.github.io/loveayang.jpg"/>
+     </div>
+     <p id="ket">Halo sayangku, makasih yaa sayang udah scan barcode ini.</p>
+     <p id="ket">Sekarang, aku punya hadiah lain nih. Coba pencet gambar love kita yaa sayangku.</p>
+
+     <div class="kumpulanstiker">
+         <!-- Stiker untuk Konten -->
+         <img src="https://feeldreams.github.io/bunga.gif" id="fotostiker"/>
+         <img src="https://feeldreams.github.io/pusn.gif" id="fotostiker1"/>
+         <img src="https://feeldreams.github.io/pandacoklat.gif" id="fotostiker2"/>
+         <img src="https://feeldreams.github.io/cilukba.gif" id="fotostiker3"/>
+         <img src="https://feeldreams.github.io/pandakuning.gif" id="fotostiker4"/>
+         <img src="https://feeldreams.github.io/emawh.gif" id="fotostiker5"/>
+         
+         <img src="https://feeldreams.github.io/pandacoklat.gif" id="fotostiker6"/>
+     </div>
+     
+     <p id="halo" class="halo"></p>
+     
+     <div><blockquote id='bq'>
+       <p id="kalimat">Yeay, udah kan nostalgianya? Sebenernya mau diisi apa aja juga ngga akan ngaruh.</p>
+
+       <p id="pesan1">Karena ayang lagi ulang tahun, coba sekarang matiin lilinnya sayang</p>
+       <div id="kolombaru">
+         <li id="lv1">🕯️</li>
+         <li id="lv2">🕯️</li>
+         <li id="lv3">🕯️</li>
+         <li id="lv4">🕯️</li>
+       </div>
+
+       <p id="pesan2">Sebentar,</p>
+       <!-- Pesan -->
+       <p id="pesan3">Yeay, ada yang ulang tahun nih.</p>
+       <p id="pesan4">Happy Birthday </p>
+       <p id="pesan5" class="gaya2">Ngga kerasa yaa sayang, tahun kedua ngerayain ulang tahun sama aku hehe. Semoga ayang panjang umur dan sehat selalu, dan dilancarkan setiap rezekinya yaa sayang</p>
+       <p id="pesan6" class="gaya2">Selain itu, selalu sama aku terus sampai tua nanti yaa sayang, dan doain juga biar uang aku cepet kekumpul buat masa depan kita nanti, yeay</p>
+       <p id="pesan7" class="gaya2">Aamiin ya rabbal alamin..</p> </p>
+
+       <p id="pesan8" class="gaya2">Makasih banyak sayangku sekali lagii, hehehe</p>
+       <p id="pesan9" class="gaya2">Oh iya, semoga di hari ulang tahun ke-19 ini menjadi hari paling spesial dalam hidup ayang yaa? Hahaha, ngga byy aku cuman bercanda. Tapi, semoga di hari spesial ini, aku bisa ngebahagiain ayang dengan cara yang aku kasih kali ini yaa sayang hehe. Sekali lagi, aku ucapkan...</p>
+       <p id="pesan10" class="gaya2">Happy Level Up Day My Love, <br/> Nursyifa Tiara Dwiputri ❤️</p>
+
+       <!-- Tombol Lanjut -->
+       <p id="opsL">Pencet layarnya yaa sayangku ❤️</p>
+     </blockquote></div>
+
+     <!-- Tombol Kirim Pesan -->
+     <div id="Tombol"><a id="By">&#128140; Aamiin dulu, baru boleh lanjut</a></div>
+
+     <!-- Pesan Tambahan -->
+     <p id="katatambahan" class="sembunyi">AAMIIN YA RABBAL ALAMIN.. MAKASIH BANYAK CINTAKUU ❤️❤️</p>
+     
+     <!-- Pesan Ditolak -->
+     <div id="pesanditolak">
+       <img id="stikerditolak" src="https://reyhankr.github.io/bubududu-panda.gif"/>
+       <p id="kataditolak">Cepet ucapin Aamiin dulu 😡</p>
+     </div>
+
+   </div>
+
+<script>
+  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2300, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-snowflake"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-snowflake"); if (heartArr.length > 100) {heartArr[0].remove()}},100);Content.style = "opacity:1;margin-top:16vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
+	
+  document.getElementById("kadoIn").onclick = function() {if(fungsiAwal==0){audio.play();fungsiAwal=1;kadoIn.style="transition:all .8s ease;transform:scale(10);opacity:0";wallpaper.style="transform: scale(1.5);";ket.style="display:none";setTimeout(initengahan,300);setTimeout(inipesan,500)}}
+  
+  async function inipesan(){
+    var { value: nama } = await swals.fire({
+           title: 'Biar ayang nostalgia, coba masukin nama kaya html pertama aku', input: 'text',
+       });
+       if(nama && nama.length < 11){
+         window.nama = nama;
+         nama = "Nursyifa Tiara Dwiputri"
+         vketikhalo="Halo, " + nama + " ❤️";
+         mulainama();
+         } else {
+           await swals.fire('Ngga boleh', 'Harus diisi yaa sayangku ❤️');inipesan();
+    }
+  }
+
+  //Variable Pertanyaan Akhir
+  var tanya = 'udah ngucapin "Aamiin" belum?';
+  var opstanya = 'Harus jujur yaa sayang 😡';
+  var tompositif = 'Udah sayang';
+  var tomnegatif = 'BELUM?!?!';
+    
+    async function menuju(){pesanwhatsapp = await swals.fire('Okey sayang', 'Kita lanjut ke pelaminan ya? Ehh lupa, itumah 4 tahun lagi. Kita lanjut ke link selanjutnya yaa? ', 'success');window.location = "https://linktr.ee/ulangtahunnyacipa";}
+</script>
+<script src="https://reyhankr.github.io/script.js"></script>
+<!-- Sampai Sini -->
+</body>
+  </html>
